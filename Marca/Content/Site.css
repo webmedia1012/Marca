@@ -22,3 +22,27 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+/*extra for scrubbing video*/
+.thumbPreviewWindow {
+    max-width: 640px;
+    position: fixed;
+    z-index: 1075;
+    right: 10px;
+    top: 10px;
+}
+
+.scrub-cursor {
+    width: 2px;
+    opacity: 0.3;
+    height: 165px;
+    position: absolute;
+    z-index: 11;
+    background: #fff;
+    display: none;
+}
+
+.spotPreviewEvent {
+    cursor: pointer;
+}
